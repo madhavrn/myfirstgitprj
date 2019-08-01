@@ -1,0 +1,17 @@
+<project name="learnant" default="echohelloworld" basedir="D:\CD_CI\ant_build">
+	<target name="echohelloworld" >
+		
+			<echo>Hello world!!</echo>
+	
+	</target>
+	
+	<target name="cmdhelloworld" >
+	<exec executable="cmd">
+	<arg value="/c"/>
+	<arg value="echo"/>
+	<arg value="Yello Wrld"/>
+	
+	</exec>
+	
+	</target>
+</project>	
